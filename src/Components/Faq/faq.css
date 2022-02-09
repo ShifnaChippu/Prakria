@@ -1,0 +1,94 @@
+.faq-section {
+    background-color: #FFF300;
+    text-align: left;
+    padding: 102px 0 150px;
+}
+.faq-section img {
+    width: 100%;
+    margin-top: 55px;
+}
+.faq-section h1 span {
+    color: #000;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+.faq-section .accordion {
+    margin-top: 55px;
+}
+.faq-section .accordion-button::after {
+    display: none;
+}
+.faq-section .accordion-button {
+    border: #0B0B0B solid 2px;
+    background: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    padding: 0 30px;
+}
+.faq-section .accordion-button:not(.collapsed) {
+    color: #000; 
+    background-color: transparent; 
+    box-shadow:none;
+    outline: none;
+    border: #0B0B0B solid 2px;
+}
+.faq-section .accordion-item {
+    border: none;
+    background: none;
+    margin-bottom: 19px;
+}
+.faq-section p{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -0.015em;
+}
+
+
+
+/*----------------------------------------------
+					Media Section
+------------------------------------------------ */
+@media screen and (max-width: 1100px) {
+    .faq-section .accordion-button {
+        font-size: 16px;
+        line-height: 40px;
+        padding: 0 26px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .faq-section .accordion-button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0 26px;
+    }
+    .faq-section {
+        padding: 65px 0 65px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .faq-section .accordion-button {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 0 26px;
+    }
+    .faq-section {
+        padding: 65px 0 65px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .faq-section .accordion-button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0 26px;
+    }
+}

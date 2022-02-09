@@ -1,0 +1,111 @@
+.banner {
+    background-image: url(../../assets/images/banner-bg.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 58%;
+    height: 850px;
+    padding: 65px 0 0 0;
+    overflow: hidden;
+}
+.banner h1 {
+    margin-bottom: 70px;
+}
+.banner-text {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-bottom: 27px;
+}
+.banner-text span {
+    font-size: 30px;
+    color: #0629CD;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner-text strong {
+    color: #0629CD;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+.pricing-btn,
+.pricing-btn:hover,
+.pricing-btn:focus {
+    background-color: #FFF300;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    padding-top: 11px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    height: 43px;
+    width: 176px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+
+
+
+/*----------------------------------------------
+					Media Section
+------------------------------------------------ */
+@media screen and (max-width: 1400px) {
+    .banner .col-md-7 {
+        width: 65%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .banner {
+        padding: 100px 0 0 0;
+    }
+    .banner .col-md-7 {
+        width: 80%;
+    }    
+    .banner-text,
+    .banner-text span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner-text strong {
+        font-size: 36px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .banner .col-md-7 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-text strong {
+        font-size: 30px;
+    }
+    .banner-text, .banner-text span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pricing-btn, 
+    .pricing-btn:hover, 
+    .pricing-btn:focus {
+        width: 160px;
+    }
+}
+
+

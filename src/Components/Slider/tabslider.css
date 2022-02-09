@@ -1,0 +1,37 @@
+#tabslider ul.slick-dots{
+  list-style-type: none;  
+}
+#tabslider .slick-dots li{
+  display: inline-block;
+}
+#tabslider .slick-list {
+  position: relative;
+  height: auto !important;
+}
+#tabslider .slick-dots {
+  bottom: 0;
+  left: 20px;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+#tabslider .slick-active {
+  background-color: #fff;
+  height: 16px;
+  border-radius: 20px;
+}
+#tabslider .slick-dots button:hover {
+  background-color: #fff;
+}
+
+#tabslider .slick-dots button {
+  background-color: transparent;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  width: 10px;
+  height: 16px;
+}
+#tabslider .slick-dots li {
+  margin: 0 5px 0 0;
+}
+
