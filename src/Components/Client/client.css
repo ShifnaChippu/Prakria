@@ -45,23 +45,31 @@
 
 .nav-menu {
     position: absolute;
-    top: 277px;
+    top: 284px;
     left: 44px;
     text-align: left;
-    padding-top: 25px;
 }
 
-.nav-menu li {
-    padding-bottom: 23px;
+.nav-menu .menu-item{
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 0px -280px 0px -40px;
+    display: block;
+    cursor: pointer;
+}
+
+.nav-menu .menu-item:hover{
+    background: #7EFEFF;
+    border-radius: 5px;
 }
 
 .nav-menu li a {
     color: #000000;
 }
 
-.nav-menu li:hover {
+/* .nav-menu li:hover {
     text-decoration: underline;
-}
+} */
 
 .list-item-active {
     color: rgb(223, 29, 29);

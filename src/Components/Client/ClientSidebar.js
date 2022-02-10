@@ -11,12 +11,12 @@ function ClientSidebar() {
             </NavLink>
             <nav className='nav-menu'>
                 <ul>
-                    <li><NavLink to={"/client/projects"}>Projects</NavLink></li>
-                    <li><NavLink to={"/client/brands"}>Brands</NavLink></li>
-                    <li><NavLink to={"/client/files"}>Files</NavLink></li>
-                    <li><NavLink to={"/client/resource"}>Add a Resource</NavLink></li>
-                    <li><NavLink to={"/client/account"}>Account</NavLink></li>
-                    <li><NavLink to={"/"}>Logout</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/client/projects"}>Projects</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/client/brands"}>Brands</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/client/files"}>Files</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/client/resource"}>Add a Resource</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/client/account"}>Account</NavLink></li>
+                    <li><NavLink className='menu-item' to={"/"}>Logout</NavLink></li>
                 </ul>
             </nav>
         </aside>
